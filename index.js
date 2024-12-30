@@ -1,7 +1,8 @@
 
 
+// Prise de décision ==>
 
-// 1er tâche Leap Year Checker:
+    // 1er tâche Leap Year Checker:
 let year = 2024
 
 function LeapYear(year) {
@@ -15,8 +16,7 @@ if (LeapYear(year)) {
     console.log(year + " n'est pas une année bissextile.");
 }
 
-// 2eme tâche Ticket Pricing:
-
+    // 2eme tâche Ticket Pricing:
 let age=30;
 let price;
 
@@ -28,12 +28,12 @@ if (age <= 12) {
     price = 20;
 }
 
-// Afficher le résultat
 console.log("Le prix de votre billet est de " + price + " €");
 
 
 
-// Recursion :Séquence de Fibonacci:
+// Recursion ==>
+   // 1er tâche: Séquence de Fibonacci: est une suite de nombres entiers dans laquelle chaque nombre est la somme des deux nombres qui le précèdent.
 
 function fibonacci(n) {
     if (n === 0) {
@@ -48,14 +48,13 @@ function fibonacci(n) {
     return fibonacci(n - 1) + fibonacci(n - 2);
   }
   
-  // Tester la fonction
   console.log("Le 20ème nombre de Fibonacci est : " + fibonacci(20));
   console.log("Le 8ème nombre de Fibonacci est : " + fibonacci(8));
 
 
 
 
-// Recursion: Fonction de puissance
+//2 éme tâche: Fonction de puissance
 
 
   function puissance(base, exposant) {
@@ -71,7 +70,6 @@ function fibonacci(n) {
     return base * puissance(base, exposant - 1);
   }
   
-  // Tester la fonction
   console.log("1 à la puissance 5 est : " + puissance(1, 5));
   console.log("9 à la puissance 3 est : " + puissance(9, 3)); 
   console.log("7 à la puissance 4 est : " + puissance(7, 4));  
